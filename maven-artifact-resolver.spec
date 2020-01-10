@@ -1,6 +1,6 @@
 Name:           maven-artifact-resolver
 Version:        1.0
-Release:        10%{?dist}
+Release:        9%{?dist}
 # Epoch is added because the original package's version in maven-shared is 1.1-SNAPSHOT
 Epoch:          1
 Summary:        Maven Artifact Resolution API
@@ -65,9 +65,6 @@ rm src/test/java/org/apache/maven/shared/artifact/resolver/DefaultProjectDepende
 %doc LICENSE NOTICE
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.0-10
-- Mass rebuild 2013-12-27
-
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1:1.0-9
 - Migrate away from mvn-rpmbuild (#997444)
 
